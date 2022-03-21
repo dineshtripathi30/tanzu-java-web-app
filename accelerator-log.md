@@ -4,7 +4,7 @@
 ```json
 {
   "projectName" : "tanzu-java-web-app",
-  "repositoryPrefix" : "tanzudemoreg.azurecr.io/build-service"
+  "repositoryPrefix" : "tanzudemoreg.azurecr.io"
 }
 ```
 ## Log
