@@ -1,13 +1,18 @@
 accelerator:
-  displayName: dt-tanzu-java-web-app
-  description: DT tanzu accelerator
-  iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-tanzu-light.png
-  tags: []
+  displayName: Tanzu Java Web App
+  description: A sample Spring Boot web application built with Tanzu supply-chain
+  iconUrl: https://github.com/sample-accelerators/icons/raw/master/icon-boot.png
+  tags:
+  - java
+  - spring
+  - web
+  - tanzu
   options:
-  - name: optionName
-    label: Nice Label
-    display: true
-    defaultValue: ""
+  - name: repositoryPrefix
+    inputType: text
+    label: Prefix for the container image repository
+    defaultValue: dev.local
+    required: true
 engine:
   include:
   - '**'
