@@ -1,5 +1,5 @@
 accelerator:
-  displayName: Tanzu Java Web App
+  displayName: DT Demo Acceelerator
   description: A sample Spring Boot web application built with Tanzu supply-chain
   iconUrl: https://github.com/sample-accelerators/icons/raw/master/icon-boot.png
   tags:
@@ -7,11 +7,13 @@ accelerator:
   - spring
   - web
   - tanzu
+  - dttapdemo
+  - acceelrator
   options:
   - name: repositoryPrefix
     inputType: text
     label: Prefix for the container image repository
-    defaultValue: dev.local
+    defaultValue: dt.local
     required: true
 engine:
   include:
