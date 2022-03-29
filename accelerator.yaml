@@ -16,6 +16,7 @@ accelerator:
     defaultValue: tanzudemoreg.azurecr.io/build-service
     required: true
 engine:
+  merge:
   - include: [ "**/*" ]
     exclude: [ "config/*.yaml", "Tiltfile", "README.md", "catalog/*.yaml" ]
   - include: [ "config/*.yaml", "Tiltfile" ]
